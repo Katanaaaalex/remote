@@ -131,3 +131,14 @@ git merge <имя дополнительной ветки>
 git clone
 ```
 GitHub автоматически создаст новый локальный репозитарий в виде удаленного на собственном сервере.
+Если хотите получить побольше информации об одном из удалённых репозиториев, вы можете использовать команду git remote show [удал. сервер]. Если вы выполните эту команду с некоторым именем, например, origin, вы получииите что-то подобное:
+```
+$ git remote show origin
+* remote origin
+  URL: git://github.com/schacon/ticgit.git
+  Remote branch merged with 'git pull' while on branch master
+    master
+  Tracked remote branches
+    master
+    ticgit
+    ```
