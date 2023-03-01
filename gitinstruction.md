@@ -142,5 +142,10 @@ $ git remote show origin
   Tracked remote branches
     master
     ticgit
-    ```
-    
+```
+## 3.  Удаление веток.
+Для того, чтобы удалить ненужные ветки, необходимо ввести команду:
+```
+git branch -d <название ветки>
+```
+
